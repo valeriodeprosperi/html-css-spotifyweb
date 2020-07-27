@@ -3,3 +3,23 @@
   margin: 0;
   padding: 0;
 }
+
+.page-wrapper{
+  height: 100vh;
+  background-color: #000;
+}
+
+main{
+  height: calc(100%-80px);
+  display:flex;
+}
+aside{
+  height:100%;
+  width:300px;
+  background-color: green;
+}
+.main-content{
+  height:100%;
+  width: calc(100%-300px)
+
+}
