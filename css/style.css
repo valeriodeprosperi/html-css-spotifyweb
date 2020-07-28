@@ -1,4 +1,7 @@
-*{
+
+
+/* RESET */
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,39 +10,82 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
-.page-wrapper{
+
+/* MIX */
+.btn {
+  color: #fff;
+  background-color: purple;
+}
+.page-wrapper {
   height: 100vh;
   background-color: #000;
 }
 
-main{
-  height: calc(100%-80px);
-  display:flex;
+/* MAIN */
+main {
+  height: calc(100% - 80px);
+  display: flex;
 }
-aside{
-  height:100%;
-  width:300px;
+
+/* Sidebar */
+aside {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 300px;
   background-color: green;
 }
-.main-content{
-  height:100%;
-  padding:20px;
-  overflow-y:auto;
-  width: calc(100%-300px);
+.logo {
+  background-color: blue;
+}
+.main-nav {
+  background-color: orange;
+}
+.secondary-nav {
+  height: 100%;
+  overflow: hidden;
+  background-color: lightblue;
+}
+.playlist-title {
+  height: 50px;
+}
+.playlist-list {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+.aside-bottom {
+  height: 80px;
+  flex-shrink: 0;
+  margin-top: auto;
+  background-color: grey;
+}
+
+/* Main content */
+.main-content {
+  height: 100%;
+  width: calc(100% - 300px);
+  padding: 20px;
+  overflow-y: auto;
   background-color: yellow;
-
 }
-
-.upgrade{
+.upgrade {
   position: fixed;
-  top:0;
-  left:0;
-  height:80px;
-  width: calc(100%-300px);
-  background-color: rgba(0, 0, 0);
-
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  width: calc(100% - 300px);
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
 }
-footer{
+
+/* FOOTER */
+footer {
+  position: relative;
+  z-index: 1;
   height: 80px;
   background-color: red;
 }
