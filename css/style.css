@@ -39,12 +39,20 @@ aside {
   background-color: blue;
 }
 .main-nav {
-  background-color: orange;
+  background-color: #000;
 }
+.main-nav a{
+  text-decoration: none;
+  color: lightgrey;
+}
+.main-nav a:hover li{
+  color: white;
+}
+
 .secondary-nav {
   height: 100%;
   overflow: hidden;
-  background-color: lightblue;
+  background-color: #000;
 }
 .playlist-title {
   height: 50px;
@@ -53,6 +61,11 @@ aside {
   height: calc(100% - 50px);
   overflow-y: auto;
 }
+.secondary-nav a{
+  text-decoration: none;
+  color: lightgrey;
+}
+
 .aside-bottom {
   height: 80px;
   flex-shrink: 0;
