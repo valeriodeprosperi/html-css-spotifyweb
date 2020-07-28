@@ -45,10 +45,14 @@ aside {
   text-decoration: none;
   color: lightgrey;
 }
+.main-nav ul li{
+  padding:10px;
+  margin-left: 5px;
+}
 .main-nav a:hover li{
   color: white;
 }
-
+/* secondary nav plylist */
 .secondary-nav {
   height: 100%;
   overflow: hidden;
@@ -57,6 +61,18 @@ aside {
 .playlist-title {
   height: 50px;
 }
+.playlist-title h3 {
+  padding:10px;
+  margin-left: 5px;
+}
+.playlist-title a {
+  padding:10px;
+  margin-left: 5px;
+}
+.playlist-title i{
+  font-size: 50px;
+}
+
 .playlist-list {
   height: calc(100% - 50px);
   overflow-y: auto;
@@ -65,7 +81,11 @@ aside {
   text-decoration: none;
   color: lightgrey;
 }
+.secondary-nav  ul li{
+  padding:10px;
+  margin-left: 5px;
 
+}
 .aside-bottom {
   height: 80px;
   flex-shrink: 0;
