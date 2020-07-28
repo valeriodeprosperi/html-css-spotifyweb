@@ -141,14 +141,19 @@ aside {
 
 }
 .menu-music li a{
-  padding-left: 10px;
+  padding-left: 20px;
   color:lightgrey;
   text-decoration: none;
-  
+  text-transform: uppercase;
 }
 
 li{
   list-style: none;
+}
+/* recently */
+.recently{
+  margin-top: 20px;
+  margin-left:20px;
 }
 /* FOOTER */
 footer {
