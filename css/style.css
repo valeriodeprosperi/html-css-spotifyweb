@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
 .page-wrapper{
   height: 100vh;
   background-color: #000;
