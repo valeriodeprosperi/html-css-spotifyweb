@@ -12,10 +12,7 @@ body{
 }
 
 /* MIX */
-.btn {
-  color: #fff;
-  background-color: purple;
-}
+
 .page-wrapper {
   height: 100vh;
   background-color: #000;
@@ -113,7 +110,14 @@ aside {
   width: calc(100% - 300px);
   padding: 20px;
   overflow-y: auto;
-  background-color: yellow;
+  background-color: #000;
+}
+.upgrade .btn{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  color: white;
+
 }
 .upgrade {
   position: fixed;
@@ -128,7 +132,24 @@ aside {
   padding: 20px;
   background-color: rgba(0,0,0,0.7);
 }
+.music{
+  margin-top:100px;
+}
+.menu-music nav ul{
+  display: flex;
+  justify-content: center;
 
+}
+.menu-music li a{
+  padding-left: 10px;
+  color:lightgrey;
+  text-decoration: none;
+  
+}
+
+li{
+  list-style: none;
+}
 /* FOOTER */
 footer {
   position: relative;
