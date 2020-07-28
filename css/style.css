@@ -58,9 +58,7 @@ aside {
   overflow: hidden;
   background-color: #000;
 }
-.playlist-title {
-  height: 50px;
-}
+
 .playlist-title h3 {
   padding:10px;
   margin-left: 5px;
