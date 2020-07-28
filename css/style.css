@@ -77,6 +77,9 @@ aside {
   height: calc(100% - 50px);
   overflow-y: auto;
 }
+.playlist-list li{
+  margin-top:10px;
+}
 .secondary-nav a{
   text-decoration: none;
   color: lightgrey;
