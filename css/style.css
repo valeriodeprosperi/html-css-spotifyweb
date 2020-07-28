@@ -33,10 +33,12 @@ aside {
   flex-direction: column;
   height: 100%;
   width: 300px;
-  background-color: green;
+
 }
 .logo {
-  background-color: blue;
+  font-size: 40px;
+  background-color: #000;
+  margin-left: 5px;
 }
 .main-nav {
   background-color: #000;
