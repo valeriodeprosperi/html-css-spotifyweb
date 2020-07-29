@@ -215,3 +215,22 @@ footer {
 footer, .player, .icons{
   width: 100%;
 }
+.number, .bar{
+  display:inline-block;
+}
+
+.bar{
+  width: 80%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.music-player{
+  width: calc((100%/3) - 15px);
+  text-align: center;
+}
+
+.menu_list li{
+  display: inline;
+}
