@@ -70,10 +70,10 @@ aside {
 }
 .playlist-title i{
   color: black;
-  font-size: 30px;
-  padding: 5px 5px;
-  border: 1px solid white;
-  background-color: white;
+  font-size: 20px;
+  padding: 10px 10px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
 }
 
 .playlist-list {
