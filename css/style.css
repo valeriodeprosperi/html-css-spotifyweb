@@ -187,11 +187,19 @@ li{
 .album:hover i {
   visibility: visible;
 }
-
+/* creato */
 .creato_per{
   margin-top:30px;
 }
 .creato_per p{
+  padding-top:15px;
+  color: grey;
+}
+/* popolari */
+.popolari{
+  margin-top:30px;
+}
+.popolari p{
   padding-top:15px;
   color: grey;
 }
