@@ -69,7 +69,11 @@ aside {
   margin-left: 5px;
 }
 .playlist-title i{
-  font-size: 50px;
+  color: black;
+  font-size: 30px;
+  padding: 5px 5px;
+  border: 1px solid white;
+  background-color: white;
 }
 
 .playlist-list {
@@ -229,8 +233,20 @@ footer, .player, .icons{
 .music-player{
   width: calc((100%/3) - 15px);
   text-align: center;
+
 }
 
 .menu_list li{
   display: inline;
+  padding: 5px;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.menu-list .fa-play-circle{
+  font-size: : 400px;
 }
