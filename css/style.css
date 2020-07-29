@@ -187,6 +187,14 @@ li{
 .album:hover i {
   visibility: visible;
 }
+
+.creato_per{
+  margin-top:30px;
+}
+.creato_per p{
+  padding-top:15px;
+  color: grey;
+}
 /* FOOTER */
 footer {
   position: relative;
