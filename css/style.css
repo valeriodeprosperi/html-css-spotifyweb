@@ -243,10 +243,18 @@ footer, .player, .icons{
 .box{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   padding-top: 10px;
 }
 
 .menu-list .fa-play-circle{
   font-size: : 400px;
 }
+
+.album_now img{
+  width:50px;
+  margin-top:10px;
+  margin-left:10px;
+
+}
+/* mediaquery */
