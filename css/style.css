@@ -211,3 +211,7 @@ footer {
   height: 80px;
   background-color: red;
 }
+
+footer, .player, .icons{
+  width: 100%;
+}
