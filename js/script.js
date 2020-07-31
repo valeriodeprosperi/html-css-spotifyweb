@@ -1,1 +1,1 @@
-document.getElementById('prova.js').innerHTML='Heavy Metal';
+document.getElementById('prova_js').innerHTML='Prova titolo';
